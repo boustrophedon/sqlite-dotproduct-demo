@@ -1,0 +1,8 @@
+[package]
+name = "dottest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = { version = "0.8.5", features = ["small_rng"] }
+rusqlite = { version = "0.31.0", features = ["functions"] }
